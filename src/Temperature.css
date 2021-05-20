@@ -1,0 +1,17 @@
+.temperature {
+  font-size: 65px;
+  text-shadow: 3px 4px 5px #002030;
+  font-weight: normal;
+}
+.temperature .active {
+  color: rgba(4, 1, 188, 0.329);
+  cursor: default;
+  text-decoration: none;
+}
+.units {
+  color: rgba(4, 1, 188, 0.329);
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+  right: -10px;
+}

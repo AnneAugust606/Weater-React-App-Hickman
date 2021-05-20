@@ -1,0 +1,12 @@
+.city {
+  color: rgb(201, 201, 201);
+  display: block;
+  text-align: center;
+}
+.description {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.date {
+  color: rgba(4, 1, 188, 0.329);
+}

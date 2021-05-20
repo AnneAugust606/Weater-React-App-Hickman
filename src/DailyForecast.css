@@ -1,0 +1,16 @@
+.days {
+  padding: 0 40px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.weather-forecast {
+  margin: 0%;
+  display: inline-flex;
+  padding-bottom: 10px;
+}
+
+.DailyForecast {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(4, 1, 188, 0.164);
+}
