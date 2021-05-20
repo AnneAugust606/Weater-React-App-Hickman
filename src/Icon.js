@@ -1,5 +1,15 @@
 import React from "react";
 import "./Icon.css";
+import "./Icons/01d.svg";
+import "./Icons/01n.svg";
+import "./Icons/02d.svg";
+import "./Icons/02n.svg";
+import "./Icons/03dn.svg";
+import "./Icons/05dn.svg";
+import "./Icons/06d.svg";
+import "./Icons/07dn.svg";
+import "./Icons/08dn.svg";
+import "./Icons/09dn.svg";
 
 export default function Icon(props) {
   let icon = "";
@@ -10,33 +20,33 @@ export default function Icon(props) {
   } else if (props.icon === "04n") {
     icon = "./Icons/03dn.svg"; //broken clouds night
   } else if (props.icon === "01d") {
-    icon = "./Icons/03dn.svg"; //clear day
+    icon = "./Icons/01d.svg"; //clear day
   } else if (props.icon === "01n") {
-    icon = "./Icons/03dn.svg"; //clear night
+    icon = "./Icons/01n.svg"; //clear night
   } else if (props.icon === "02d") {
-    icon = "./Icons/03dn.svg"; //partly cloudy day
+    icon = "./Icons/02d.svg"; //partly cloudy day
   } else if (props.icon === "02n") {
-    icon = "./Icons/03dn.svg"; //partly cloudy night
+    icon = "./Icons/02n.svg"; //partly cloudy night
   } else if (props.icon === "09d") {
-    icon = "./Icons/03dn.svg"; //showers day
+    icon = "./Icons/06d.svg"; //showers day
   } else if (props.icon === "09n") {
-    icon = "./Icons/03dn.svg"; //showers night
+    icon = "./Icons/07dn.svg"; //showers night
   } else if (props.icon === "10d") {
-    icon = "./Icons/03dn.svg"; //mod-heavy rain day
+    icon = "./Icons/07dn.svg"; //mod-heavy rain day
   } else if (props.icon === "10n") {
-    icon = "./Icons/03dn.svg"; //rain night
+    icon = "./Icons/07dn.svg"; //rain night
   } else if (props.icon === "11d") {
-    icon = "./Icons/03dn.svg"; //thunderstorm day
+    icon = "./Icons/08dn.svg"; //thunderstorm day
   } else if (props.icon === "11n") {
-    icon = "./Icons/03dn.svg"; //thunderstorm night
+    icon = "./Icons/08dn.svg"; //thunderstorm night
   } else if (props.icon === "13d") {
-    icon = "./Icons/03dn.svg"; //snow day
+    icon = "./Icons/09dn.svg"; //snow day
   } else if (props.icon === "13n") {
-    icon = "./Icons/03dn.svg"; //snow night
+    icon = "./Icons/09dn.svg"; //snow night
   } else if (props.icon === "50d") {
-    icon = "./Icons/03dn.svg"; //mist day
+    icon = "./Icons/02d.svg"; //mist day
   } else if (props.icon === "50n") {
-    icon = "./Icons/03dn.svg"; //mist night
+    icon = "./Icons/02n.svg"; //mist night
   }
 
   return <img src={icon} alt="weather-icon" />;

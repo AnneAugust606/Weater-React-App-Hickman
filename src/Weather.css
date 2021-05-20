@@ -10,3 +10,9 @@
 .date {
   color: rgba(4, 1, 188, 0.329);
 }
+.temperature {
+  margin-bottom: 0;
+}
+.description {
+  margin-top: -10px;
+}

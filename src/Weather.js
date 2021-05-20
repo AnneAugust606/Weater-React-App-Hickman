@@ -17,7 +17,6 @@ export default function Weather(props) {
       </p>
 
       <Icon icon={props.data.icon} size={85} />
-      <p className="description date">{props.data.description}</p>
 
       <div className="temperature">
         <p>
@@ -28,6 +27,7 @@ export default function Weather(props) {
           />
         </p>
       </div>
+      <p className="description date">{props.data.description}</p>
     </div>
   );
 }
