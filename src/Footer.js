@@ -10,7 +10,7 @@ export default function Footer() {
         Coded by Gretchyn Hickman |{" "}
         <a
           className="github-ref"
-          href="https://github.com/AnneAugust606/weather-react-app"
+          href="https://github.com/AnneAugust606/Weater-React-App-Hickman"
           target="_blank norefferer"
         >
           GitHub
@@ -18,7 +18,7 @@ export default function Footer() {
         |{" "}
         <a
           className="github-ref"
-          href="https://suspicious-meninsky-847725.netlify.app/"
+          href="https://priceless-villani-2db0d0.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
         >

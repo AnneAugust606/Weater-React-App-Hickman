@@ -16,7 +16,7 @@ export default function Weather(props) {
         <FormattedDate date={props.data.date} />
       </p>
 
-      <Icon icon={props.data.icon} size={85} />
+      <Icon icon={props.data.icon} />
 
       <div className="temperature">
         <p>

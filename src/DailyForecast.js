@@ -37,7 +37,7 @@ export default function DailyForecast(props) {
     return (
       <div className="DailyForecast">
         <h6 className="days col-5 col-md-auto text-center">{day()}</h6>
-        <Icon icon={props.forecast.weather[0].icon} size={38} />
+        <Icon icon={props.forecast.weather[0].icon} />
         <div className="weather-forecast">
           <strong>
             <span className="DailyForecast-temp-max">{celsiusMaxTemp()}°</span>
@@ -50,7 +50,7 @@ export default function DailyForecast(props) {
     return (
       <div className="DailyForecast">
         <h6 className="days col-5 col-md-auto text-center">{day()}</h6>
-        <Icon icon={props.forecast.weather[0].icon} size={38} />
+        <Icon icon={props.forecast.weather[0].icon} />
         <div className="weather-forecast">
           <strong>
             <span className="DailyForecast-temp-max">
